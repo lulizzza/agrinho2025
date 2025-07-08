@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educação e Cultura do Campo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f5f1;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #388E3C;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #2E7D32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Educação e Cultura do Campo</h1>
+    <p>Conectando Saberes Rurais e Urbanos</p>
+  </header>
+
+  <nav>
+    <a href="#cursos">Cursos</a>
+    <a href="#conteudo">Conteúdo Educativo</a>
+    <a href="#saberes">Troca de Saberes</a>
+    <a href="#parcerias">Parcerias</a>
+  </nav>
+
+  <div class="container">
+    <div class="section" id="cursos">
+      <h2>Cursos e Oficinas</h2>
+      <p>Aprenda técnicas de agricultura sustentável, agroecologia, manejo do solo, produção de alimentos orgânicos e muito mais.</p>
+    </div>
+
+    <div class="section" id="conteudo">
+      <h2>Conteúdo Educativo</h2>
+      <p>Vídeos, textos e infográficos sobre a vida no campo e a importância do meio rural para o desenvolvimento sustentável.</p>
+    </div>
+
+    <div class="section" id="saberes">
+      <h2>Troca de Saberes</h2>
+      <p>Espaço para compartilhar experiências entre jovens, agricultores, professores e comunidade. Valorize o conhecimento tradicional e o saber popular.</p>
+    </div>
+
+    <div class="section" id="parcerias">
+      <h2>Parcerias com Escolas</h2>
+      <p>Traga sua escola para vivenciar projetos em conjunto com comunidades rurais. Oficinas, visitas e projetos colaborativos.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Educação e Cultura do Campo - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
